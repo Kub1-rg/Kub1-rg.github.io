@@ -1,0 +1,53 @@
+{
+    "titulo":{
+      "rol":"Fullstack Developer & QA Analyst",
+      "descripcion": "I am a web and mobile developer, quality control analyst. Responsible, communicative, and honest. I work well in teams and also independently.",
+      "boton": "Download Resume"
+  },
+    "servicios": {
+      "movil-titulo": "Mobile App Development",
+      "movil-desc": "I develop your mobile app tailored to your needs",
+      "testing-titulo": "Software Testing",
+      "testing-desc": "I perform testing of your systems and applications through functional, non-functional, unit, and stress tests",
+      "requerimientos-titulo": "Requirements Gathering",
+      "requerimientos-desc": "I analyze and gather requirements for your system or applications to make it as complete as possible",
+      "sociales-titulo": "Social Media Management",
+      "sociales-desc": "I handle your social media in a way that increases engagement",
+      "soporte-titulo": "Customer Support",
+      "soporte-desc": "I provide support for the applications or systems I have developed for you in case you need assistance",
+      "venta-titulo": "Grocery Sales",
+      "venta-desc": "I also have a grocery sales business, in case you are interested in buying, we are located in Cali, Granada neighborhood",
+      "leermas": "Read More"
+  },
+    "habilidades":{
+      "habilidades":"Skills"
+  },
+    "trabajos":{
+      "trabajos-desc": "My Works"
+  },
+    "galeria":{
+      "item-todos":"All",
+      "trabajos-programacion":"Programming",
+      "galeria-titulo":"Work Title",
+      "trabajo-desc":"See Work"
+  },
+    "contacto":{
+      "contacto":"Contact",
+      "contacto-correo":"E-Mail",
+      "contacto-telefono":"Phone Number",
+      "contacto-pais":"Country",
+      "contacto-ciudad":"City"
+  },
+    "placeholders": {
+      "place-nombre": "Name...",
+      "place-correo": "Email...",
+      "place-mensaje": "Message",
+      "place-btn": "Send"
+  },
+  "created":{
+    "created":"Created by Erick Ceron - 2023"
+  }
+
+}  
+
+  

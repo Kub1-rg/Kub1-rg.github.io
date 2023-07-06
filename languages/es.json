@@ -1,0 +1,51 @@
+{
+    "titulo":{
+        "rol":"Desarrollador Fullstack & Analista QA",
+        "descripcion": "Soy un desarrollador web y móvil, analista de control de calidad. Responsable, comunicativo y honesto. Trabajo bien en equipo y también de manera independiente.",
+        "boton": "Descargar CV"
+    },
+    "servicios": {
+        "movil-titulo": "Desarrollo de Apps Moviles",
+        "movil-desc": "Realizo el desarrollo de tu APP movil a tu medida",
+        "testing-titulo": "Testing de Software",
+        "testing-desc": "Realizo el Testing de tus sistemas y de tus aplicaciones mediante pruebas funcionales,no funcionales, unitarias y de estres",
+        "requerimientos-titulo": "Levantamiento de Requerimientos",
+        "requerimientos-desc": "Realizo el analisis y el Levantamiento de los requeremientos de tu sistema o aplicaciones para que sea lo mas completa posible",
+        "sociales-titulo": "Manejo de Redes sociales",
+        "sociales-desc": "Realizo el manejo de tus redes sociales de tal manera que aumente el engagement de la misma",
+        "soporte-titulo": "Soporte a clientes",
+        "soporte-desc": "Realizo el soporte para las aplicaciones o sistemas que haya realizado para tu persona en caso de que necesites ayuda yo te proporcionare el soporte de la misma",
+        "venta-titulo": "Venta de comestibles",
+        "venta-desc": "A su vez cuento con un negocio para venta de comestibles en caso de que estes interesado en comprar estamos ubicados en la ciudad de cali barrio granada",
+        "leermas": "Leer Más"
+        },
+        "habilidades":{
+            "habilidades":"Habilidades"
+        },
+    "trabajos":{
+        "trabajos-desc": "Mis Trabajos"
+    },
+    "galeria":{
+        "item-todos":"Todos",
+        "trabajos-programacion":"Programacion",
+        "galeria-titulo":"Titulo del Trabajo",
+        "trabajo-desc":"Ver trabajo"
+    },
+    "contacto":{
+        "contacto":"Contacto",
+        "contacto-correo":"Correo Electronico",
+        "contacto-telefono":"Telefono",
+        "contacto-pais":"Pais",
+        "contacto-ciudad":"Ciudad"
+    },
+    "placeholders": {
+        "place-nombre": "Nombre...",
+        "place-correo": "Correo...",
+        "place-mensaje": "Mensaje",
+        "place-btn": "Enviar"
+    },
+    "created":{
+        "created":"Creado por Erick Ceron - 2023"
+    }
+
+}  

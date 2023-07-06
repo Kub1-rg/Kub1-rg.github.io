@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Portafolio</title>
+</head>
+<body>
+    <span class="sombra">
+        <section id="inicio"class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Erick</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/Kub1-rg" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div id="flags" class="flags">
+                        <div class="flags_item">
+                            <img src="assets/co.svg" alt="es">
+                        </div>
+
+                        <div class="flags_item">
+                            <img src="assets/us.svg" alt="en">
+                        </div>
+                    </div>
+                </header>
+                <div class="fila">
+                    <div class="col">
+                        <h2 data-section="titulo" data-value="rol">Desarrollador Fullstack & Analista QA</h2>
+                        <p data-section="titulo" data-value="descripcion">Soy un desarrollador web y móvil, analista de control de calidad. Responsable, comunicativo y honesto. Trabajo bien en equipo y también de manera independiente.</p>
+                            <a id="cvDownloadLink" href="HvJhonErickCeronDiez.pdf" download="HvJhonErickCeronDiez.pdf">
+                                <button class="btn btn-1" data-section="titulo" data-value="boton">Descargar CV</button>
+                            </a>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="assets/foto-inicio2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="movil-titulo" >Desarrollo de Apps Moviles</h3>
+                    <p data-section="servicios" data-value="movil-desc">Realizo el desarrollo de tu APP movil a tu medida</p>
+                        <a href="#"data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+                <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="testing-titulo">Testing de Software</h3>
+                    <p data-section="servicios" data-value="testing-desc">Realizo el Testing de tus sistemas y de tus aplicaciones mediante pruebas funcionales,no funcionales, unitarias y de estres</p>
+                        <a href="#"data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="requerimientos-titulo">Levantamiento de Requerimientos</h3>
+                    <p data-section="servicios" data-value="requerimientos-desc">Realizo el analisis y el Levantamiento de los requeremientos de tu sistema o aplicaciones para que sea lo mas completa posible</p>
+                        <a href="#" data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color4">
+                        <div class="circulo">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="sociales-titulo">Manejo de Redes sociales</h3>
+                    <p data-section="servicios" data-value="sociales-desc"> Realizo el manejo de tus redes sociales de tal manera que aumente el engagement de la misma</p>
+                        <a href="#" data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+                <div class="col">
+                <div class="card">
+                    <div class="icono color5">
+                        <div class="circulo">
+                            <i class="fa-sharp fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="soporte-titulo">Soporte a clientes</h3>
+                    <p data-section="servicios" data-value="soporte-desc">Realizo el soporte para las aplicaciones o sistemas que haya realizado para tu persona en caso de que necesites ayuda yo te proporcionare el soporte de la misma</p>
+                        <a href="#" data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+                <div class="col">
+                <div class="card">
+                    <div class="icono color6">
+                        <div class="circulo">
+                            <i class="fa-solid fa-shop"></i>
+                        </div>
+                    </div>
+                    <h3 data-section="servicios" data-value="venta-titulo">Venta de comestibles</h3>
+                    <p data-section="servicios" data-value="venta-desc"> A su vez cuento con un negocio para venta de comestibles en caso de que estes interesado en comprar estamos ubicados en la ciudad de cali barrio granada</p>
+                        <a href="#" data-section="servicios" data-value="leermas">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2 data-section="habilidades" data-value="habilidades">Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>Dart & Java</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>HTML,CSS,JS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>.NET 6.0</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>REACT & FLUTTER</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>Selenium & Postman</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart chart6" data-percent="90">
+                                90%
+                            </div>
+                            <h2>SQL</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+    <Section class="trabajos" id="trabajos">
+        <h2 data-section="trabajos" data-value="trabajos-desc">Mis trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="" id="item" onclick="verCategoria('item')" data-section="galeria" data-value="item-todos">Todos</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')" data-section="galeria" data-value="trabajos-programacion">Programacion</a>
+        </nav>
+        <div class="galeria">
+            <div class="item programacion">
+                <img src="assets/trabajo8.png" alt="">
+                <div class="info">
+                    <h2 data-section="galeria" data-value="galeria-titulo">Titulo del trabajo</h2>
+                    <span>Html</span><span>CSS</span><span>JAVASCRIPT</span>
+                    <a href="#" data-section="galeria" data-value="trabajo-desc">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2 data-section="contacto" data-value="contacto">Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3 data-section="contacto" data-value="contacto-correo">Correo Electronico</h3>
+                        <p>tprzzx@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3 data-section="contacto" data-value="contacto-telefono">Telefono</h3>
+                        <p>+57 3023352774</p>
+                    </div>
+                    <div class="info">
+                        <h3>Linkedin</h3>
+                        <a href="https://www.linkedin.com/in/jhon-erick-ceron-diez-92685821a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYFwZO40KQWaysUM3%2BBpfGQ%3D%3D" target="_blank">Jhon Erick Ceron Diez</a>
+                    </div>
+                    <div class="info">
+                        <h3 data-section="contacto" data-value="contacto-pais">Pais</h3>
+                        <p>Colombia</p>
+                    </div>
+                    <div class="info">
+                        <h3 data-section="contacto" data-value="contacto-ciudad">Ciudad</h3>
+                        <p>Cali</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text"  placeholder="Nombre..." data-section="placeholders" data-value="place-nombre">
+                    <input type="text" placeholder="Correo..." data-section="placeholders" data-value="place-correo">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" data-section="placeholders" data-value="place-mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn" data-section="placeholders" data-value="place-btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-section="created" data-value="created">Creado por Erick Ceron - 2023</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
