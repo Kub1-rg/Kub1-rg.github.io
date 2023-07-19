@@ -1,4 +1,11 @@
 {
+  "navegacion":{
+    "navegacion-inicio":"Start",
+    "navegacion-servicios":"Services",
+    "navegacion-habilidades":"Skills",
+    "navegacion-trabajos":"Works",
+    "navegacion-contacto": "Contact"
+  },
     "titulo":{
       "rol":"Fullstack Developer & QA Analyst",
       "descripcion": "I am a web and mobile developer, quality control analyst. Responsible, communicative, and honest. I work well in teams and also independently.",
