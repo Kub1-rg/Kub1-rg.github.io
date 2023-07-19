@@ -1,10 +1,10 @@
 {
     "navegacion":{
-    "navegacion-inicio":"Inicio",
-    "navegacion-servicios":"Servicios",
-    "navegacion-habilidades":"Habilidades",
-    "navegacion-trabajos":"Trabajos",
-    "navegacion-contacto": "Contacto"
+        "navegacion-inicio":"Inicio",
+        "navegacion-servicios":"Servicios",
+        "navegacion-habilidades":"Habilidades",
+        "navegacion-trabajos":"Trabajos",
+        "navegacion-contacto": "Contacto"
     },
     "titulo":{
         "rol":"Desarrollador Fullstack & Analista QA",
